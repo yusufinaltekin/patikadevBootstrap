@@ -1,0 +1,96 @@
+body {
+  background-color: #f3f2ef;
+}
+.nav-list > li {
+  margin-right: 10px;
+}
+.search {
+  background-color: #eef3f8;
+  font-size: 14px;
+  height: 35px;
+}
+.search::placeholder {
+  background-image: url();
+}
+img {
+  object-fit: cover;
+}
+.card-profile {
+  top: 45px;
+  left: 50%;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+.border-line {
+  bottom: 25px;
+  left: 0;
+  position: absolute;
+  height: 1px;
+  width: 100%;
+  background-color: #c8c8c8;
+  margin-bottom: 5px;
+}
+.btn-group button:hover {
+  background-color: #c8c8c8 !important;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.card-profile-2 {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c8c8c8;
+}
+.border-bottom-line {
+  margin: 20px 0px;
+  width: 100%;
+  height: 1px;
+  background-color: #c8c8c8;
+}
+.likes{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    padding-left: 3px;
+    align-items: center;
+    background-color: #1C62AA;
+}
+.celebrate{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    padding-left: 3px;
+    align-items: center;
+    background-color: #5A8B4E;
+}
+.post-button:hover{
+    background-color: #c8c8c8;
+}
+.addPost{
+    cursor: pointer;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -ms-transition: all .4s ease;
+    -o-transition: all .4s ease;
+}
+.addPost:focus{
+    outline: none;
+}
+.addPost:hover{
+    background-color: #c8c8c8;
+}
